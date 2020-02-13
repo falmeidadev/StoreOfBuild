@@ -1,0 +1,297 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.Web/StoreOfBuild.Web.csproj": {}
+  },
+  "projects": {
+    "/home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.DI/StoreOfBuild.DI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.DI/StoreOfBuild.DI.csproj",
+        "projectName": "StoreOfBuild.DI",
+        "projectPath": "/home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.DI/StoreOfBuild.DI.csproj",
+        "packagesPath": "/home/fabricio/.nuget/packages/",
+        "outputPath": "/home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.DI/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/fabricio/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.Data/StoreOfBuild.Data.csproj": {
+                "projectPath": "/home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.Data/StoreOfBuild.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.Data/StoreOfBuild.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.Data/StoreOfBuild.Data.csproj",
+        "projectName": "StoreOfBuild.Data",
+        "projectPath": "/home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.Data/StoreOfBuild.Data.csproj",
+        "packagesPath": "/home/fabricio/.nuget/packages/",
+        "outputPath": "/home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.Data/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/fabricio/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.Domain/StoreOfBuild.Domain.csproj": {
+                "projectPath": "/home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.Domain/StoreOfBuild.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.Domain/StoreOfBuild.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.Domain/StoreOfBuild.Domain.csproj",
+        "projectName": "StoreOfBuild.Domain",
+        "projectPath": "/home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.Domain/StoreOfBuild.Domain.csproj",
+        "packagesPath": "/home/fabricio/.nuget/packages/",
+        "outputPath": "/home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/fabricio/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.Web/StoreOfBuild.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.Web/StoreOfBuild.Web.csproj",
+        "projectName": "StoreOfBuild.Web",
+        "projectPath": "/home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.Web/StoreOfBuild.Web.csproj",
+        "packagesPath": "/home/fabricio/.nuget/packages/",
+        "outputPath": "/home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.Web/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/fabricio/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.DI/StoreOfBuild.DI.csproj": {
+                "projectPath": "/home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.DI/StoreOfBuild.DI.csproj"
+              },
+              "/home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.Domain/StoreOfBuild.Domain.csproj": {
+                "projectPath": "/home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.Domain/StoreOfBuild.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

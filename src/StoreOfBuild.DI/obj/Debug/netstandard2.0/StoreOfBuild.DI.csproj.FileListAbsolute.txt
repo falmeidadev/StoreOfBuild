@@ -1,0 +1,13 @@
+/home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.DI/bin/Debug/netstandard2.0/StoreOfBuild.DI.deps.json
+/home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.DI/bin/Debug/netstandard2.0/StoreOfBuild.DI.dll
+/home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.DI/bin/Debug/netstandard2.0/StoreOfBuild.DI.pdb
+/home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.DI/obj/Debug/netstandard2.0/StoreOfBuild.DI.csprojAssemblyReference.cache
+/home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.DI/obj/Debug/netstandard2.0/StoreOfBuild.DI.AssemblyInfoInputs.cache
+/home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.DI/obj/Debug/netstandard2.0/StoreOfBuild.DI.AssemblyInfo.cs
+/home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.DI/obj/Debug/netstandard2.0/StoreOfBuild.DI.dll
+/home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.DI/obj/Debug/netstandard2.0/StoreOfBuild.DI.pdb
+/home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.DI/bin/Debug/netstandard2.0/StoreOfBuild.Data.dll
+/home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.DI/bin/Debug/netstandard2.0/StoreOfBuild.Domain.dll
+/home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.DI/bin/Debug/netstandard2.0/StoreOfBuild.Data.pdb
+/home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.DI/bin/Debug/netstandard2.0/StoreOfBuild.Domain.pdb
+/home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.DI/obj/Debug/netstandard2.0/StoreOfBuild.DI.csproj.CopyComplete
