@@ -12,7 +12,7 @@ namespace StoreOfBuild.Data
     }
     public TEntity GetById(int id)
     {
-      return _context.Set<TEntity>().SingleOrDefault(c => c.Id == id);
+      return _context.Set<TEntity>().SingleOrDefault(e => e.Id == id);
     }
     public void Save(TEntity entity)
     {
