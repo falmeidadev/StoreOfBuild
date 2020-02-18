@@ -13,8 +13,9 @@ namespace StoreOfBuild.DI
         {
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(conection));
-            services.AddSingleton(typeof(IRepository<>), typeof(Repository<>));
-            services.AddSingleton(typeof(CategoryStorer));
+            services.AddTransient(typeof(IRepository<>), typeof(Repository<>));
+            services.AddTransient(typeof(CategoryStorer));
+            services.AddTransient(typeof(IUnitOfWork), typeof(UnitOfWork));
         }
     }
 }

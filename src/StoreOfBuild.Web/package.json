@@ -11,6 +11,7 @@
     "gulp-cssmin": "^0.2.0",
     "gulp-uncss": "^1.0.6",
     "jquery": "^3.4.1",
+    "jquery-ajax-unobtrusive": "^3.2.6",
     "jquery-validation": "^1.19.1",
     "jquery-validation-unobtrusive": "^3.2.11"
   }
