@@ -1,4 +1,5 @@
 using System.Threading.Tasks;
+using StoreOfBuild.Data.Context;
 using StoreOfBuild.Domain;
 
 namespace StoreOfBuild.Data
@@ -16,6 +17,5 @@ namespace StoreOfBuild.Data
     {
         await _context.SaveChangesAsync();
     }
-
   }
 }

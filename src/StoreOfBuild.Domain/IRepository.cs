@@ -7,5 +7,6 @@ namespace StoreOfBuild.Domain
          TEntity GetById(int id);
          IEnumerable<TEntity> All();
          void Save(TEntity entity);
+         void Delete(int id);
     }
 }

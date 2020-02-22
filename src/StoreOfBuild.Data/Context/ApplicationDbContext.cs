@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using StoreOfBuild.Domain.Products;
 
-namespace StoreOfBuild.Data
+namespace StoreOfBuild.Data.Context
 {
     public class ApplicationDbContext : DbContext
     {
@@ -10,5 +10,6 @@ namespace StoreOfBuild.Data
             
         }
         public DbSet<Category> Categories { get; set; }
-    }
+        public DbSet<Product> Products { get; set; }
+    }        
 }

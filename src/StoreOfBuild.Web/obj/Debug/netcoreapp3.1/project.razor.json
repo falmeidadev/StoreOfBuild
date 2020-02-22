@@ -20511,6 +20511,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.Web/Views/Product/Index.cshtml",
+      "TargetPath": "Views/Product/Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.Web/Views/Product/CreateOrEdit.cshtml",
+      "TargetPath": "Views/Product/CreateOrEdit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.Web/Views/_ViewStart.cshtml",
       "TargetPath": "Views/_ViewStart.cshtml",
       "FileKind": "mvc"

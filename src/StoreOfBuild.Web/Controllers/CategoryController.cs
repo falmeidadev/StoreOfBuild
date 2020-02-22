@@ -48,5 +48,11 @@ namespace StoreOfBuild.Web.Controllers
       _categoryStorer.Store(viewModel.Id, viewModel.Name);
       return RedirectToAction("Index");
     }
+
+    public IActionResult Delete(int id)
+    {
+      _categoryStorer.Delete(id);
+      return RedirectToAction("Index");
+    }
   }
 }

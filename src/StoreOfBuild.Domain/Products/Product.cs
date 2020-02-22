@@ -1,12 +1,12 @@
 namespace StoreOfBuild.Domain.Products
 {
-  public class Product
+  public class Product : Entity
   {
-    public int Id { get; private set; }
     public string Name { get; private set; }
-    public Category Category { get; private set; }
+    public virtual Category Category { get; private set; }
     public decimal Price { get; set; }
     public int StockQuantity { get; private set; }
+    private Product(){}
     public Product(string name, Category category, decimal price, int stockQuantity)
     {
       ValidateValues(name, category, price, stockQuantity);

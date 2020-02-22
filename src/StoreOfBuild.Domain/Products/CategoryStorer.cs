@@ -19,5 +19,10 @@ namespace StoreOfBuild.Domain.Products
       else
         category.Update(name);
     }
+
+    public void Delete(int id)
+    {
+      _categoryRepository.Delete(id);
+    }
   }
 }
