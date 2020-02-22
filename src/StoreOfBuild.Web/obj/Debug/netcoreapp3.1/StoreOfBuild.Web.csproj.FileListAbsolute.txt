@@ -21,7 +21,6 @@
 /home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.Web/obj/Debug/netcoreapp3.1/StoreOfBuild.Web.TagHelpers.output.cache
 /home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.Web/obj/Debug/netcoreapp3.1/StoreOfBuild.Web.RazorCoreGenerate.cache
 /home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.Web/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs
-/home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.Web/obj/Debug/netcoreapp3.1/Razor/Views/Home/Privacy.cshtml.g.cs
 /home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.Web/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs
 /home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.Web/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs
 /home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.Web/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs

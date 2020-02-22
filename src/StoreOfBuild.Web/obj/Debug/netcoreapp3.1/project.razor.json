@@ -20546,11 +20546,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.Web/Views/Home/Privacy.cshtml",
-      "TargetPath": "Views/Home/Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "/home/fabricio/Projects/Labs/StoreOfBuild/src/StoreOfBuild.Web/Views/Shared/_Layout.cshtml",
       "TargetPath": "Views/Shared/_Layout.cshtml",
       "FileKind": "mvc"
